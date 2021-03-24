@@ -1,0 +1,1027 @@
+/*! Custom Global Classes */
+
+html {
+  font-family: "Raleway", sans-serif;
+}
+
+.upper {
+  text-transform: uppercase;
+}
+
+h1 {
+  font-size: 3.5rem;
+}
+
+h2,
+.title h3,
+.title {
+  font-size: 2rem;
+}
+
+h3,
+h4 {
+  font-size: 1.5rem;
+}
+
+h1,
+h2,
+.title {
+  font-family: "Merriweather", serif;
+}
+
+.flex,
+#menu-footer-menu {
+  display: flex;
+}
+
+p {
+  font-size: 1.3rem;
+}
+
+.footer-p {
+  font-size: 1rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+.bg-text {
+  position: absolute;
+  right: 20%;
+  left: 20%;
+  top: 30%;
+  color: #fff;
+}
+
+.bg-img {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: center;
+  background-position-x: center;
+  height: 48rem;
+}
+
+.blog-banner img {
+  object-fit: cover;
+  width: 100%;
+  height: 40rem;
+  margin-bottom: 2rem;
+}
+
+@media (max-width: 400px) {
+  .bg-img,
+  .blog-banner img {
+    height: 25rem;
+  }
+}
+
+.p-text {
+  padding: 2%;
+  width: 88%;
+}
+
+.text-bold {
+  font-weight: bold;
+}
+
+.p-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.text-center {
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.button {
+  border: 1px solid #fff;
+  background-color: #a3bc61;
+  padding: 0.8rem 2.5rem;
+  color: #fff;
+  transition: ease-out 500ms;
+  border-radius: 100px;
+  text-transform: uppercase;
+}
+
+.button:hover {
+  color: #000;
+  transition: ease-in-out 300ms;
+  cursor: pointer;
+}
+
+@media (max-width: 800px) {
+  .bg-text h1 {
+    font-size: 1.5rem;
+  }
+
+  .bg-text h3 {
+    font-size: 1rem;
+  }
+}
+
+/* * FOOTER */
+
+footer,
+footer a {
+  color: #fff;
+}
+
+footer li {
+  margin: 1rem 0;
+}
+
+.footer-top {
+  background-color: #a3bc61;
+  padding: 5rem 2rem;
+}
+
+.footer-top p {
+  margin-bottom: 2rem;
+}
+
+.menu-footer-menu-container {
+  display: none;
+}
+
+ul#menu-footer-menu li {
+  padding: 0 0.3rem;
+}
+
+.footer-widgets {
+  background-color: #1f4e62;
+  padding: 5rem 2rem;
+}
+
+.footer-widgets a {
+  opacity: 0.8;
+}
+
+.footer-widgets a:hover {
+  opacity: 1;
+}
+
+.footer-widgets div {
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.footer-bottom,
+.footer-bottom a {
+  color: #666;
+}
+
+.footer-bottom a:hover {
+  color: #000;
+}
+
+.footer-inside-bottom div {
+  display: flex;
+  justify-content: center;
+}
+
+.footer-inside-bottom div a img {
+  padding: 0 1rem;
+}
+.footer-right {
+  margin: 0;
+}
+
+/* back to top */
+
+#up {
+  display: inline-block;
+  background-color: #a3bc61;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  border-radius: 4px;
+  position: absolute;
+  right: 30px;
+  transition: background-color 0.3s, opacity 0.5s, visibility 0.5s;
+  z-index: 1000;
+  padding-top: 1rem;
+}
+
+#up:hover {
+  cursor: pointer;
+  background-color: #333;
+}
+#up:active {
+  background-color: #555;
+}
+
+@media (max-width: 400px) {
+  #up {
+    position: relative;
+    right: 40%;
+    left: 40%;
+  }
+}
+
+@media (min-width: 800px) {
+  .menu-footer-menu-container {
+    display: inline-block;
+  }
+}
+
+.bg-footer {
+  background-image: url("/dmit2032/yanalla-farms/wp-content/uploads/2020/12/home-footer-banner-1.jpg");
+  height: 60rem;
+}
+
+.bg-text-footer h3 {
+  padding: 2rem 0;
+  font-size: 2rem;
+}
+
+.bg-text-footer {
+  top: 275rem;
+}
+
+@media (max-width: 800px) {
+  .bg-text-footer {
+    top: 610rem;
+  }
+
+  .bg-text-footer img {
+    max-width: 250px;
+  }
+
+  .footer-right {
+    margin: 1rem 0;
+  }
+}
+
+.awards {
+  justify-content: center;
+}
+
+.awards img {
+  padding: 2rem;
+}
+
+@media (max-width: 700px) {
+  .bg-text-footer {
+    top: 550rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .bg-text-footer {
+    top: 480rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .bg-text-footer {
+    top: 410rem;
+  }
+}
+
+/* footer */
+
+/* * HOME PAGE */
+
+.bg-home {
+  background-image: url("/dmit2032/yanalla-farms/wp-content/uploads/2020/12/home-slide-1.jpg");
+}
+
+.button-home {
+  background-color: rgba(255, 255, 255, 0);
+}
+
+.button-home:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.home-info {
+  margin: 2rem;
+}
+
+.home-info h2 {
+  font-size: 2rem;
+  margin: 1rem 0;
+}
+
+.home-produce a {
+  padding: 1rem;
+}
+
+.home-produce {
+  justify-content: center;
+}
+
+.text-story div:first-of-type {
+  background-color: #c8dc8f;
+}
+
+.text-events div:last-of-type {
+  background-color: #eef5dd;
+}
+
+.home-text-box p {
+  line-height: 2.4rem;
+  padding: 2rem 1rem;
+}
+
+.home-text-box h3 {
+  font-size: 2rem;
+}
+
+.home-text-box a {
+  font-size: 1.7rem;
+}
+
+.home-text-box {
+  width: 50%;
+  padding: 4rem 8%;
+  height: 44rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.home-title {
+  margin: 5rem 0 2rem;
+}
+
+@media (max-width: 1200px) {
+  .home-text-box {
+    width: 100%;
+    padding: 4rem 2%;
+  }
+
+  .home-text-box p {
+    font-size: 1rem;
+  }
+}
+
+.home-blogs {
+  justify-content: center;
+}
+
+.blog-card {
+  padding: 1rem;
+  width: 300px;
+}
+
+.title {
+  padding: 0 1rem;
+}
+
+.produce-card {
+  position: relative;
+  z-index: -1;
+}
+
+.produce-card-heading {
+  position: absolute;
+  top: 44%;
+  width: 100%;
+  text-align: center;
+}
+
+.produce-card-heading h4 {
+  color: #fff;
+  font-size: 1.5rem;
+}
+
+.produce-card img {
+  height: 100%;
+}
+
+.home-produce a:hover img,
+.latest-recipe div:hover img {
+  opacity: 0.5;
+  transition: transform 0.4s 0s ease-in-out;
+  transform: scale(1.5) rotate(15deg);
+  overflow: hidden;
+}
+
+.produce-content div:hover {
+  cursor: pointer;
+}
+
+.home-produce a {
+  transition: transform 0.4s 0s ease-in-out;
+}
+
+.latest-recipe {
+  margin: 1rem;
+}
+
+.overflow-black {
+  overflow: hidden;
+  background-color: #000;
+  height: 100%;
+  transition: transform 0.4s 0s ease-in-out;
+}
+
+@media (min-width: 801px) {
+  .home-produce {
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 800px) {
+  .home-squares div,
+  .home-produce,
+  .home-blogs,
+  .awards {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .home-recipe {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .max {
+    padding: 0;
+  }
+
+  .home-text-box {
+    height: 34rem;
+  }
+
+  .event-text {
+    height: 18rem;
+    order: -1;
+  }
+
+  .text-events .event-text {
+    order: -1;
+  }
+
+  .produce-card img {
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+  }
+
+  .blog-card,
+  .blog-card div {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .home-recipe div {
+    width: 100%;
+    margin: 1rem auto;
+  }
+
+  .blog-card div img,
+  .latest-recipe .p-img img {
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+  }
+
+  .awards img {
+    width: 50%;
+    margin: 0 auto;
+  }
+}
+
+/* home page */
+
+/* * PRODUCE */
+
+.produce-content {
+  padding: 2rem;
+}
+
+.bg-produce {
+  background-image: url("/dmit2032/yanalla-farms/wp-content/uploads/2020/12/produce-banner.png");
+}
+
+.bg-custard {
+  background-image: url("/dmit2032/yanalla-farms/wp-content/uploads/2020/12/produce-custard-banner.png");
+  height: 32rem;
+}
+
+.bg-dragon {
+  background-image: url("/dmit2032/yanalla-farms/wp-content/uploads/2020/12/home-dragon-fruit.jpg");
+  height: 32rem;
+}
+
+.bg-lychee {
+  background-image: url("/dmit2032/yanalla-farms/wp-content/uploads/2020/12/home-lychees.jpg");
+  height: 32rem;
+}
+
+.produce-links {
+  flex-direction: column;
+}
+
+.produce-links a {
+  color: #000;
+  font-size: 1.5rem;
+}
+
+.all-produce-links h4 {
+  font-size: 2rem;
+}
+
+.all-produce-links h4,
+.produce-links a {
+  margin: 0.5rem 0;
+}
+
+.all-produce-links {
+  margin: 4rem 0;
+}
+
+.bg-text-custard h1,
+.bg-text-dragon h1,
+.bg-text-lychee h1 {
+  padding: 1rem 0;
+}
+
+.max {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.produce-all-text a {
+  color: #000;
+}
+
+.produce-page,
+.produce-intro,
+.produce-all-text h2 {
+  padding: 2rem 0;
+}
+
+.produce-all-text h3:last-of-type {
+  padding: 3rem 0 0 0;
+}
+
+.produce-title {
+  padding: 2rem;
+}
+
+.produce-title a,
+.produce-content a {
+  color: #000;
+}
+
+@media (max-width: 830px) {
+  .produce-card {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .p-text {
+    width: 100%;
+    padding: 2rem 0;
+  }
+}
+
+/* produce */
+
+/* * BLOG - HOME */
+
+.bg-blog {
+  background-image: url("/dmit2032/yanalla-farms/wp-content/uploads/2020/12/blog-banner.png");
+}
+
+.all-blog-posts {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.sidebar-blog {
+  margin-top: 2rem;
+}
+
+.single .produce-card .p-text {
+  display: flex;
+  align-items: center;
+}
+
+@media (min-width: 800px) {
+  .all-blog-posts {
+    display: grid;
+    grid-gap: 2rem;
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 1100px;
+    margin: 0 auto;
+  }
+}
+
+.postid-79 .p-card-3,
+.postid-73 .produce-content,
+.postid-71 .produce-content,
+.postid-25 .produce-content {
+  display: none;
+}
+
+.c-1 {
+  background-color: #f39b99;
+}
+
+.c-2 {
+  background-color: #fdf5f4;
+}
+
+.c-3 {
+  background-color: #f8cdcd;
+}
+
+.c-4 {
+  background-color: #f6b5b4;
+}
+
+.c-5 {
+  background-color: #fbe6e6;
+}
+
+.c-6 {
+  background-color: #fdf0f0;
+}
+
+.c-7 {
+  background-color: #fbe5e5;
+}
+
+.c-7 {
+  background-color: #f6b5b3;
+}
+
+/* *HEADER */
+
+.inner-container {
+  justify-content: space-around;
+  background-color: #fff;
+  height: 4rem;
+  position: fixed;
+  width: 100%;
+  z-index: 2;
+}
+
+.logo img {
+  max-width: 12rem;
+  max-height: 100%;
+}
+
+#main-menu {
+  display: flex;
+  position: relative;
+}
+
+#main-menu a {
+  color: #000;
+}
+
+#main-menu li:hover a {
+  color: rgb(96, 96, 96);
+}
+
+#main-menu li {
+  padding: 0.5rem;
+  font-size: 1rem;
+}
+
+.sub-menu {
+  display: none;
+}
+
+.sub-menu li {
+  border-bottom: 1px solid #999;
+}
+
+.sub-menu a {
+  font-size: 0.9rem;
+}
+
+#menu-item-107::after,
+#menu-item-110::after,
+#menu-item-109::after {
+  content: " \0025BE";
+}
+
+#menu-item-107:hover .sub-menu,
+#menu-item-110:hover .sub-menu {
+  display: block;
+  color: #000;
+  position: absolute;
+  background-color: #fff;
+  padding: 2rem;
+  width: 12rem;
+}
+
+@media (min-width: 1100px) {
+  #main-menu li {
+    padding: 0.5rem;
+    font-size: 1.2rem;
+  }
+}
+
+.toggle-icon {
+  border: 1px solid #000;
+  margin: auto 0;
+  padding: 1rem;
+  background-color: #fff;
+}
+
+.toggle-icon:hover span {
+  background-color: #fff;
+}
+
+.toggle-icon:hover {
+  background-color: #000;
+  cursor: pointer;
+}
+
+.toggle-icon:active span {
+  background-color: #000;
+}
+#main-menu li a:active {
+  color: #e28547;
+}
+
+#main-menu #menu-item-204:active {
+  background-color: #fff;
+}
+
+@media (max-width: 800px) {
+  /* toggle icon */
+  .toggle-icon span {
+    width: 1rem;
+    height: 0.2rem;
+    margin: 0.2rem 0;
+    border-radius: 10rem;
+    background-color: #000;
+    display: block;
+    cursor: pointer;
+  }
+
+  #main-menu {
+    flex-direction: column;
+  }
+
+  nav {
+    background-color: #fff;
+    min-width: 30rem;
+    height: 100vh;
+  }
+
+  /* default menu state */
+  .off-canvas-menu {
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 5;
+    background-color: #fff;
+  }
+
+  #main-menu {
+    padding: 0;
+    margin: 2rem 0 0;
+  }
+
+  #main-menu li {
+    border-bottom: 0.1rem solid #f7f7f2;
+    line-height: 2;
+    text-align: center;
+  }
+
+  /* width and move off canvas */
+  .off-canvas-menu {
+    right: -100%;
+    top: 4rem;
+    width: 100%;
+    height: 100vh;
+    transition: right 0.3s ease-out;
+  }
+
+  .is-active .sub-menu {
+    display: none;
+  }
+
+  .is-active .off-canvas-menu {
+    top: 4rem;
+    width: 100%;
+    right: 0;
+    transition: right 0.7s ease-out;
+    z-index: 5;
+  }
+
+  .is-active .hide-span {
+    display: none;
+  }
+
+  .is-active .close-1 {
+    transform: rotate(-45deg);
+    position: relative;
+    top: 7px;
+  }
+
+  .is-active .close-2 {
+    transform: rotate(45deg);
+  }
+  .is-active #main-menu #menu-item-204 {
+    background-color: #fff;
+  }
+}
+
+@media (min-width: 800px) {
+  .toggle-icon {
+    display: none;
+  }
+}
+
+/* *GROWERS */
+
+.post-213 .p-text {
+  height: 340px;
+}
+
+.post-213 .p-img {
+  width: 96%;
+}
+
+.post-213 .p-text p:first-child {
+  font-size: 2.5rem;
+}
+
+.padding-grower {
+  padding: 2rem;
+}
+
+.bg-growers {
+  background-image: url("/dmit2032/yanalla-farms/wp-content/uploads/2020/12/growers-banner.png");
+}
+
+/* *ARCHIVE */
+
+.archive-flex {
+  justify-content: space-around;
+  margin: 4rem 0;
+}
+
+@media (max-width: 800px) {
+  .archive-flex {
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    margin: 0 auto;
+  }
+
+  .list-404-info {
+    padding: 2rem 0;
+  }
+}
+
+.list-404-info h2,
+.bg-text-404 h1 {
+  padding-bottom: 1rem;
+}
+
+.list-404-info li {
+  padding: 0.5rem 0;
+  border-bottom: 1px solid;
+}
+
+.list-404-info a {
+  color: #000;
+}
+
+.bg-archive {
+  background-image: url("/dmit2032/yanalla-farms/wp-content/uploads/2020/12/home-footer-banner-1.jpg");
+  height: 30rem;
+}
+
+.bg-text-archive {
+  right: 40%;
+  left: 40%;
+}
+
+/* *SEARCH */
+
+.search-main {
+  width: 60%;
+}
+
+.bg-archive {
+  margin-bottom: 2rem;
+}
+
+.search-item {
+  padding-bottom: 1rem;
+  border-bottom: 1px solid;
+  margin: 2rem 10%;
+}
+
+@media (max-width: 800px) {
+  .search-item {
+    margin: 2rem;
+  }
+}
+
+/* *SIDEBAR */
+
+.sidebar-right {
+  width: 400px;
+}
+
+.sidebar-right .widget-title {
+  padding-bottom: 0.5rem;
+}
+
+.search-bar {
+  padding: 0.5rem 0;
+  width: 60%;
+}
+
+.sidebar-right a {
+  color: #000;
+  font-size: 1.2rem;
+}
+
+.sidebar-right li {
+  border-bottom: 1px solid rgba(102, 102, 102, 0.466);
+  padding-bottom: 0.2rem;
+  margin-bottom: 0.2rem;
+}
+
+.search-btn {
+  border: 1px solid #a3bc61;
+  background-color: #fff;
+  padding: 0.8rem 2.5rem;
+  color: #000;
+  transition: ease-out 500ms;
+  border-radius: 100px;
+  text-transform: uppercase;
+}
+
+.search-btn:hover {
+  color: #fff;
+  background-color: #a4bc61b1;
+  transition: ease-in-out 300ms;
+  cursor: pointer;
+}
+
+.sidebar-search,
+.flex-blog-sidebar,
+.sidebar-category {
+  display: flex;
+}
+
+@media (max-width: 1100px) {
+  .flex-blog-sidebar,
+  .sidebar-category {
+    display: inline-block;
+  }
+  .sidebar-right,
+  .sidebar-single {
+    width: 70%;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 800px) {
+  .search-bar {
+    width: 45%;
+  }
+
+  .search-main,
+  .blog-text {
+    width: 80%;
+  }
+}
+
+/* *CATEGORY */
+
+.category-title {
+  padding: 2rem 0;
+}
+
+.all-blog-posts {
+  padding: 2rem 0;
+}
+
+.blog-fix {
+  margin: 1rem 0;
+}
+
+.blog-text {
+  padding: 2rem;
+}
